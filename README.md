@@ -1,4 +1,4 @@
-# Laravel 12 用擬真的假資料取代機密的模型資料
+# Laravel 13 用擬真的假資料取代機密的模型資料
 
 引入 directorytree 的 anonymize 套件來擴增用擬真的假資料取代機密的模型資料，非常適合開發環境、示範和資料共用場景，這些場景需要在保護使用者隱私的同時維護資料結構和關係。
 
@@ -26,8 +26,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/NEN0ygg.png)
+![](https://i.imgur.com/B78bnaS.png)
 > 開啟應用程式示範模式環境設定，同時開啟匿名化
 
-![](https://i.imgur.com/hsRoguL.png)
+![](https://i.imgur.com/TZ5Uh3p.png)
 > 關閉應用程式示範模式環境設定，同時關閉匿名化
